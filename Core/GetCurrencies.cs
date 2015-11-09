@@ -18,6 +18,7 @@ namespace Core
             currencies.Add(new Currency { Id = 2, Code = "AUD", Rate = 0.87f });
             currencies.Add(new Currency { Id = 3, Code = "CAD", Rate = 1.45f });
             currencies.Add(new Currency { Id = 4, Code = "CHF", Rate = 1.92f });
+            currencies.Add(new Currency { Id = 4, Code = "EUR", Rate = 1.35f });
 
             return currencies;
         }
