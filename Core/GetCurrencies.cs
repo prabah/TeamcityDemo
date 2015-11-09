@@ -1,4 +1,5 @@
 ﻿using Contracts;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace Core
 {
     public class GetCurrencies : IGetCurrencies
     {
-        public IList<string> GetCurrency()
+        public IList<Currency> GetCurrency()
         {
-            return new List<string>();
+            return new List<Currency>();
         }
     }
 }
