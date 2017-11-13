@@ -11,5 +11,6 @@ namespace Models
         public int Id { get; set; }
         public string Code { get; set; }
         public double Rate { get; set; }
+        public int IterationId { get; set; }
     }
 }
